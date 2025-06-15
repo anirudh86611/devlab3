@@ -20,3 +20,4 @@ public class ServerInfo {
         System.out.println("Current Time: " + skadoosh);
         System.out.println("Hostname: " + hostname);
     }
+}
