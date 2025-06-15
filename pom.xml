@@ -4,7 +4,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.example</groupId>
-  <artifactId>devops-lab3</artifactId>
+  <artifactId>server-info</artifactId>
   <version>1.0-SNAPSHOT</version>
 
   <build>
