@@ -13,9 +13,7 @@ public class ServerInfo {
         try {
             InetAddress ip = InetAddress.getLocalHost();
             hostname = ip.getHostName();
-        } catch (Exception e) {
-            System.err.println("Error getting hostname: " + e.getMessage());
-        }
+        } 
         System.out.println("Current Time: " + skadoosh);
         System.out.println("Hostname: " + hostname);
     }
