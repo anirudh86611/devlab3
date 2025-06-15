@@ -1,4 +1,4 @@
-package com.example
+package com.example;
 import java.net.InetAddress;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
