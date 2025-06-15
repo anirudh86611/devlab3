@@ -18,4 +18,9 @@ public class ServerInfo {
         }
         System.out.println("Current Time: " + skadoosh);
         System.out.println("Hostname: " + hostname);
+        int[] numbers = {1, 2, 3, 4, 5};
+
+        // BUG: Off-by-one error – will cause ArrayIndexOutOfBoundsException
+        for (int i = 0; i <= numbers.length; i++) {
+            System.out.println(numbers[i]);
     }
